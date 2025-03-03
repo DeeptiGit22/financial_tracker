@@ -1,0 +1,51 @@
+{
+    "budgets": [
+        {
+            "id": 101,
+            "month": "jan",
+            "categories": [
+                {
+                    "food": {
+                        "limit": 500
+                    }
+                },
+                {
+                    "rent": {
+                        "limit": 2000
+                    }
+                },
+                {
+                    "utilities": {
+                        "limit": 300
+                    }
+                },
+                {
+                    "transportation": {
+                        "limit": 400
+                    }
+                },
+                {
+                    "entertainment": {
+                        "limit": 100
+                    }
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "month": "feb",
+            "categories": [
+                {
+                    "food": {
+                        "limit": 1500
+                    }
+                },
+                {
+                    "rent": {
+                        "limit": 5000
+                    }
+                }
+            ]
+        }
+    ]
+}

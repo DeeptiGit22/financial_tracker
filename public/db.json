@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "date": "2024-02-01",
+      "type": "expense",
+      "category": "rent",
+      "amount": 12000,
+      "desc": "Monthly salary credited"
+    },
+    {
+      "id": 3,
+      "date": "2024-02-01",
+      "type": "income",
+      "category": "salary",
+      "amount": 36000,
+      "desc": "Monthly salary credited"
+    },
+    {
+      "id": 4,
+      "date": "2024-02-01",
+      "type": "expense",
+      "category": "rent",
+      "amount": 11000,
+      "desc": "Monthly salary credited"
+    },
+    {
+      "id": 6,
+      "date": "2025-02-06",
+      "type": "expense",
+      "category": "transportation",
+      "amount": 20000,
+      "desc": "transportation"
+    },
+    {
+      "id": 7,
+      "date": "2024-01-01",
+      "type": "expense",
+      "category": "food",
+      "amount": 2998,
+      "desc": "food bill"
+    }
+  ]
+}
