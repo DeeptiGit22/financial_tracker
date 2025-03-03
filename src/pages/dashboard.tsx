@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
 	Bar,
@@ -191,7 +191,7 @@ const Dashboard = () => {
 												cy='50%'
 												outerRadius={120}
 												label>
-												{categoryChartArray.map((entry, index) => (
+												{categoryChartArray.map((index:any) => (
 													<Cell
 														key={`cell-${index}`}
 														fill={COLORS[index % COLORS.length]}

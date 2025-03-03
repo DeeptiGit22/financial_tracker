@@ -29,7 +29,7 @@ const EditTransaction = () => {
 		(t: any) => t.id === Number(id)
 	);
 
-	const handleSubmit = (values: any, { resetForm }: any) => {
+	const handleSubmit = (values: any) => {
 		const transaction = {
 			...values,
 			id: Number(id),
@@ -60,7 +60,7 @@ const EditTransaction = () => {
 						validationSchema={transactionSchema}
 						enableReinitialize
 						onSubmit={handleSubmit}>
-						{({ values, setFieldValue }) => (
+						{({ setFieldValue }) => (
 							<Form>
 								<div className='mb-3'>
 									<label className='form-label'>Transaction Type</label>
